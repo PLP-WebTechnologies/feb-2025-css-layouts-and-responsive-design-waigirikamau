@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h1>Tech Dollar</h1>
+        </div>
+        
+        <!-- Mobile Menu Button -->
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <i class="fas fa-bars" id="menu-icon"></i>
+          <i class="fas fa-times hidden" id="close-icon"></i>
+        </button>
+        
+        <!-- Navigation Menu -->
+        <ul class="nav-menu">
+          <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+          <li><a href="#services"><i class="fas fa-envelope"></i> Services</a></li>
+          <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="Responsive designs">
+    
+    <!-- Mobile Navigation Menu -->
+    <div class="mobile-menu hidden">
+      <div class="container">
+        <ul>
+          <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+          <li><a href="#services"><i class="fas fa-envelope"></i> Services</a></li>
+          <li><a href="#contact"><i class="fas fa-phone"></i> Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Welcome to Our Website</h1>
+          <p>A responsive design that looks great on all devices. Built with modern CSS techniques.</p>
+          <button class="btn">Get Started</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="about" class="features">
+      <div class="container">
+        <h2>Key Features</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3>Feature 1</h3>
+            <p>This feature showcases the power of responsive design. The layout adjusts based on the screen size using CSS Grid and Flexbox.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Feature 2</h3>
+            <p>Responsive typography adjusts font sizes, line heights, and other typographical elements based on screen size to maintain readability</p>
+          </div>
+          <div class="feature-card">
+            <h3>Feature 3</h3>
+            <p>This feature showcases Fluid layouts, allow website elements to adjust their size and position relative to each other, preventing elements from becoming too crowded or misaligned</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-flex">
+          <div class="service-card">
+            <h3>Service 1</h3>
+            <p>This service description showcases how Flexbox can be used for responsive layouts. The content adjusts fluidly on different screen sizes.</p>
+            <a href="#" class="read-more">Learn More →</a>
+          </div>
+          <div class="service-card">
+            <h3>Service 2</h3>
+            <p>Consistent Branding:
+              Responsive design helps maintain a consistent brand identity across all devices, ensuring a cohesive user experience.</p>
+            <a href="#" class="read-more">Learn More →</a>
+          </div>
+          <div class="service-card">
+            <h3>Service 3</h3>
+            <p>Responsive Images:
+              Images are scaled and optimized to fit the screen, providing a crisp and clear view on any device. </p>
+            <a href="#" class="read-more">Learn More →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <p>Have questions or need assistance? Reach out to us using the form or contact details.</p>
+            <div class="contact-details">
+              <p><i class="fas fa-phone"></i> 0708403670</p>
+              <p><i class="fas fa-envelope"></i>waigirikelvin2@gmail.com</p>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-row">
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+            </div>
+            <input type="text" placeholder="Subject" />
+            <textarea placeholder="Message" rows="4"></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>BrandName</h2>
+          <p>© 2025 All Rights Reserved</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
